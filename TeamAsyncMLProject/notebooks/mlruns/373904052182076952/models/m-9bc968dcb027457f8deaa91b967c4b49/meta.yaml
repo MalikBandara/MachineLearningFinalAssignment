@@ -1,0 +1,10 @@
+artifact_location: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/373904052182076952/models/m-9bc968dcb027457f8deaa91b967c4b49/artifacts
+creation_timestamp: 1775316046642
+experiment_id: '373904052182076952'
+last_updated_timestamp: 1775316053679
+model_id: m-9bc968dcb027457f8deaa91b967c4b49
+model_type: null
+name: model
+source_run_id: 862841023f504f7594be493e7038fa41
+status: 2
+status_message: null

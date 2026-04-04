@@ -1,0 +1,7 @@
+artifact_location: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/650346320980896139
+creation_time: 1775288381070
+experiment_id: '650346320980896139'
+last_update_time: 1775288381070
+lifecycle_stage: active
+name: AuraCart_Price_Regression
+workspace: default

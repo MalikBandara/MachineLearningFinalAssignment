@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/373904052182076952/3def3b0b01574289a1e45a2b6de31113/artifacts
+end_time: 1775288523144
+entry_point_name: ''
+experiment_id: '373904052182076952'
+lifecycle_stage: active
+run_id: 3def3b0b01574289a1e45a2b6de31113
+run_name: Segment_Classification_Run_4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775288513651
+status: 3
+tags: []
+user_id: Malik Bandara

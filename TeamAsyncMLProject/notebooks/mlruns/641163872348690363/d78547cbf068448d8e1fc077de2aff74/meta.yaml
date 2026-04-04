@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/641163872348690363/d78547cbf068448d8e1fc077de2aff74/artifacts
+end_time: 1775315042928
+entry_point_name: ''
+experiment_id: '641163872348690363'
+lifecycle_stage: active
+run_id: d78547cbf068448d8e1fc077de2aff74
+run_name: Delivery_Classification_Run_4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775315035967
+status: 3
+tags: []
+user_id: Malik Bandara

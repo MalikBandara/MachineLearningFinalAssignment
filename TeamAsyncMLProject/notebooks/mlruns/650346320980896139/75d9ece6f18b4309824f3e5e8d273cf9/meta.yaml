@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/650346320980896139/75d9ece6f18b4309824f3e5e8d273cf9/artifacts
+end_time: 1775315958148
+entry_point_name: ''
+experiment_id: '650346320980896139'
+lifecycle_stage: active
+run_id: 75d9ece6f18b4309824f3e5e8d273cf9
+run_name: SGD_Regression_Run_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775315950930
+status: 3
+tags: []
+user_id: Malik Bandara

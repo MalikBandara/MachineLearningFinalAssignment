@@ -1,0 +1,23 @@
+artifact_path: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/373904052182076952/models/m-e487ef7d77ad4ca2b9d91670b52299d7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-e487ef7d77ad4ca2b9d91670b52299d7
+model_size_bytes: 1305
+model_uuid: m-e487ef7d77ad4ca2b9d91670b52299d7
+prompts: null
+run_id: 8091ebc5158244c395f1210374611022
+utc_time_created: '2026-04-04 15:04:11.575717'

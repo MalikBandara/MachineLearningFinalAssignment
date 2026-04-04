@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/malikgit/TeamAsyncMLProject/notebooks/mlruns/173217744263218082/d7d0159186aa443e96803dfadc464245/artifacts
+end_time: 1775316096473
+entry_point_name: ''
+experiment_id: '173217744263218082'
+lifecycle_stage: active
+run_id: d7d0159186aa443e96803dfadc464245
+run_name: KMeans_k10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775316094439
+status: 3
+tags: []
+user_id: Malik Bandara

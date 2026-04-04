@@ -1,0 +1,154 @@
+python : C:\Users\Malik 
+Bandara\AppData\Roaming\Python\Python310\site-packages\zmq\_future.py:718: 
+RuntimeWarning: Proactor event loop does not implement add_reader family of 
+methods required for zmq. Registering an additional selector thread for 
+add_reader support via tornado. Use 
+`asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid 
+this warning.
+At line:1 char:1
++ python run_notebooks.py > run_log.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Malik ...d this warning 
+   .:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  self._get_loop()
+
+============================================================
+Executing: notebooks/1_eda_and_preprocessing.ipynb
+============================================================
+SUCCESS: notebooks/1_eda_and_preprocessing.ipynb
+
+============================================================
+Executing: notebooks/2_supervised_modeling.ipynb
+============================================================
+ERROR in notebooks/2_supervised_modeling.ipynb: An error occurred while executing the following cell:
+------------------
+import pandas as pd
+import numpy as np
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+import joblib
+import warnings
+warnings.filterwarnings('ignore')
+
+# Scikit-learn models & metrics
+from sklearn.linear_model import SGDRegressor, SGDClassifier, LogisticRegression
+from sklearn.model_selection import cross_val_score, KFold
+from sklearn.metrics import (
+    mean_squared_error, mean_absolute_error,
+    accuracy_score, classification_report, confusion_matrix,
+    precision_score, recall_score, f1_score, ConfusionMatrixDisplay
+)
+from sklearn.pipeline import Pipeline
+
+# MLflow
+import mlflow
+import mlflow.sklearn
+
+sns.set_style('whitegrid')
+plt.rcParams['figure.figsize'] = (12, 6)
+
+IMG_DIR = os.path.join('..', 'analysis_images')
+ARTIFACTS_DIR = os.path.join('..', 'artifacts')
+
+print('Libraries loaded successfully.')
+------------------
+
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [1;32mIn[1], line 21[0m
+[0;32m     18[0m [38;5;28;01mfrom[39;00m[38;5;250m [39m[38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpipeline[39;00m[38;5;250m [39m[38;5;28;01mimport[39;00m Pipeline
+[0;32m     20[0m [38;5;66;03m# MLflow[39;00m
+[1;32m---> 21[0m [38;5;28;01mimport[39;00m[38;5;250m [39m[38;5;21;01mmlflow[39;00m
+[0;32m     22[0m [38;5;28;01mimport[39;00m[38;5;250m [39m[38;5;21;01mmlflow[39;00m[38;5;21;01m.[39;00m[38;5;21;01msklearn[39;00m
+[0;32m     24[0m sns[38;5;241m.[39mset_style([38;5;124m'[39m[38;5;124mwhitegrid[39m[38;5;124m'[39m)
+
+[1;31mModuleNotFoundError[0m: No module named 'mlflow'
+
+
+============================================================
+Executing: notebooks/3_unsupervised_clustering.ipynb
+============================================================
+ERROR in notebooks/3_unsupervised_clustering.ipynb: An error occurred while executing the following cell:
+------------------
+import pandas as pd
+import numpy as np
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+import joblib
+import warnings
+warnings.filterwarnings('ignore')
+
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_score, silhouette_samples
+
+import mlflow
+
+sns.set_style('whitegrid')
+plt.rcParams['figure.figsize'] = (12, 6)
+
+IMG_DIR = os.path.join('..', 'analysis_images')
+ARTIFACTS_DIR = os.path.join('..', 'artifacts')
+
+print('Libraries loaded successfully.')
+------------------
+
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [1;32mIn[1], line 14[0m
+[0;32m     11[0m [38;5;28;01mfrom[39;00m[38;5;250m [39m[38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpreprocessing[39;00m[38;5;250m [39m[38;5;28;01mimport[39;00m StandardScaler
+[0;32m     12[0m [38;5;28;01mfrom[39;00m[38;5;250m [39m[38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mmetrics[39;00m[38;5;250m [39m[38;5;28;01mimport[39;00m silhouette_score, silhouette_samples
+[1;32m---> 14[0m [38;5;28;01mimport[39;00m[38;5;250m [39m[38;5;21;01mmlflow[39;00m
+[0;32m     16[0m sns[38;5;241m.[39mset_style([38;5;124m'[39m[38;5;124mwhitegrid[39m[38;5;124m'[39m)
+[0;32m     17[0m plt[38;5;241m.[39mrcParams[[38;5;124m'[39m[38;5;124mfigure.figsize[39m[38;5;124m'[39m] [38;5;241m=[39m ([38;5;241m12[39m, [38;5;241m6[39m)
+
+[1;31mModuleNotFoundError[0m: No module named 'mlflow'
+
+
+============================================================
+Executing: notebooks/4_mlops_deployment.ipynb
+============================================================
+ERROR in notebooks/4_mlops_deployment.ipynb: An error occurred while executing the following cell:
+------------------
+import pandas as pd
+import numpy as np
+import os
+import joblib
+import json
+import warnings
+warnings.filterwarnings('ignore')
+
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, LabelEncoder
+
+import mlflow
+import mlflow.sklearn
+
+ARTIFACTS_DIR = os.path.join('..', 'artifacts')
+
+print('Libraries loaded successfully.')
+------------------
+
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [1;32mIn[1], line 13[0m
+[0;32m     10[0m [38;5;28;01mfrom[39;00m[38;5;250m [39m[38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mcompose[39;00m[38;5;250m [39m[38;5;28;01mimport[39;00m ColumnTransformer
+[0;32m     11[0m [38;5;28;01mfrom[39;00m[38;5;250m [39m[38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpreprocessing[39;00m[38;5;250m [39m[38;5;28;01mimport[39;00m StandardScaler, OneHotEncoder, LabelEncoder
+[1;32m---> 13[0m [38;5;28;01mimport[39;00m[38;5;250m [39m[38;5;21;01mmlflow[39;00m
+[0;32m     14[0m [38;5;28;01mimport[39;00m[38;5;250m [39m[38;5;21;01mmlflow[39;00m[38;5;21;01m.[39;00m[38;5;21;01msklearn[39;00m
+[0;32m     16[0m ARTIFACTS_DIR [38;5;241m=[39m os[38;5;241m.[39mpath[38;5;241m.[39mjoin([38;5;124m'[39m[38;5;124m..[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124martifacts[39m[38;5;124m'[39m)
+
+[1;31mModuleNotFoundError[0m: No module named 'mlflow'
+
+
+============================================================
+All notebooks executed!
+============================================================

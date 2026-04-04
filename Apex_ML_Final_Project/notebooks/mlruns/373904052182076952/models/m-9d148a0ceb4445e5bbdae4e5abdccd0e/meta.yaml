@@ -1,0 +1,10 @@
+artifact_location: file:///D:/MLFINAL/sherulgit/Apex_ML_Final_Project/notebooks/mlruns/373904052182076952/models/m-9d148a0ceb4445e5bbdae4e5abdccd0e/artifacts
+creation_timestamp: 1775288503971
+experiment_id: '373904052182076952'
+last_updated_timestamp: 1775288513611
+model_id: m-9d148a0ceb4445e5bbdae4e5abdccd0e
+model_type: null
+name: model
+source_run_id: 867310d3d94a43c3b4238298b55896e0
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/sherulgit/Apex_ML_Final_Project/notebooks/mlruns/650346320980896139/a6379aeff213446b86315447af895ab4/artifacts
+end_time: 1775288417256
+entry_point_name: ''
+experiment_id: '650346320980896139'
+lifecycle_stage: active
+run_id: a6379aeff213446b86315447af895ab4
+run_name: SGD_Regression_Run_4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775288407749
+status: 3
+tags: []
+user_id: Malik Bandara

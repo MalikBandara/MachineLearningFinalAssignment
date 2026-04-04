@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLFINAL/sherulgit/Apex_ML_Final_Project/notebooks/mlruns/173217744263218082/ab4cc7f828184e2884fbea59c431ef9d/artifacts
+end_time: 1775288558633
+entry_point_name: ''
+experiment_id: '173217744263218082'
+lifecycle_stage: active
+run_id: ab4cc7f828184e2884fbea59c431ef9d
+run_name: KMeans_k5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775288556336
+status: 3
+tags: []
+user_id: Malik Bandara

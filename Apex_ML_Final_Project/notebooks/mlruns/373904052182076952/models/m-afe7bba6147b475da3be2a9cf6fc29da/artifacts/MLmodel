@@ -1,0 +1,23 @@
+artifact_path: file:///D:/MLFINAL/sherulgit/Apex_ML_Final_Project/notebooks/mlruns/373904052182076952/models/m-afe7bba6147b475da3be2a9cf6fc29da/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-afe7bba6147b475da3be2a9cf6fc29da
+model_size_bytes: 1305
+model_uuid: m-afe7bba6147b475da3be2a9cf6fc29da
+prompts: null
+run_id: 21574a150e684ebc8ddccf7dd4fef12e
+utc_time_created: '2026-04-04 07:41:33.939320'

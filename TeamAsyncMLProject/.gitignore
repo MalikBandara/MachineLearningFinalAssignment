@@ -1,0 +1,31 @@
+# Environment variables (sensitive credentials)
+.env
+**/.env
+test/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts (large files - upload to GCS instead)
+*.joblib
+*.pkl
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Logs & temp
+*.log
+mlruns/
